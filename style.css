@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  color: #202b33;
+  font-family: "Nunito Sans", sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  font-size: 24px;
+}
+
+.container {
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-list {
+  align-items: initial;
+}
+
+form input,
+form button {
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  background: #eeeeee;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+form button {
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+form button:hover {
+  background: #dddddd;
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo {
+  margin: 10px;
+  background: #eeeeee;
+  color: #202b33;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo li {
+  flex: 1;
+}
+
+.complete-button,
+.trash-button {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  background: #d45454;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.complete-button {
+  background: #54b8d4;
+}
+
+.todo-item {
+  padding: 10px;
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
